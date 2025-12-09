@@ -35,14 +35,6 @@ export const Form = () => {
                 </div>
             </form>
             <div>
-
-                {/* {Array.from({ length: lines }, (_, lineIndex) => (
-                    <div key={lineIndex} className="flex justify-center mt-5">
-                        {Array.from({ length: lines }, (_, itemIndex) => (
-                            <div key={itemIndex} className={` h-4 w-40 bg-${color}-500 border border-black rounded-lg`}></div>
-                        ))}
-                    </div>
-                ))} */}
                 {Array.from({ length: lines }, (_, lineIndex) => (
                     <div key={lineIndex} className="flex justify-center mt-5">
                         {Array.from({ length: items }, (_, itemIndex) => (
